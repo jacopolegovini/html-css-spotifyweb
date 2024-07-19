@@ -33,13 +33,21 @@ img {
 
 /* Main */
 
-.top-content {
+.main-layout {
+    flex-direction: column;
     height: 100%;
+}
+
+.top-content {
+    flex-basis: calc(100% - 100px);
     flex-grow: 0;
 }
 
-.main-layout {
-    flex-direction: column;
+.bottom-content {
+    background-color: gray;
+    flex-basis: 100px;
+    flex-shrink: 0;
+    width: 100%;
 }
 
 
@@ -57,7 +65,7 @@ img {
 }
 
 .sidebar-bottom {
-    flex-basis: 20%;
+    flex-basis: 10%;
 }
 
 /* Sidebar */
@@ -65,9 +73,13 @@ img {
 
 .sidebar-list-flex {
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
+.sidebar-list-flex img {
+    width: 60%;
+    margin: 0 auto;
+}
 
 /* Head */
 
@@ -91,9 +103,3 @@ header {
 
 /* Footer */
 
-.bottom-content {
-    background-color: gray;
-    height: 100px;
-    flex-shrink: 0;
-    width: 100%;
-}
