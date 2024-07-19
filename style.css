@@ -174,10 +174,10 @@ header {
 /* Content */
 /* Main content */
 
-.recent {
+.recent-content, .for-you-content, .popular-content {
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .album {
