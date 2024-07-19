@@ -26,13 +26,46 @@ img {
     display: flex;
 }
 
+.box {
+    border: 1px dashed red;
+}
+
+
+/* Main */
+
+.top-content {
+    height: 100%;
+    flex-grow: 0;
+}
+
+.main-layout {
+    flex-direction: column;
+}
+
 
 /* Sidebar */
 
 .sidebar {
     background-color: black;
     flex-basis: 50px;
-    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-top {
+    flex-basis: 20%;
+}
+
+.sidebar-bottom {
+    flex-basis: 20%;
+}
+
+/* Sidebar */
+/* Sidebar top */
+
+.sidebar-list-flex {
+    flex-direction: column;
+    gap: 5px;
 }
 
 
@@ -40,7 +73,7 @@ img {
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100px;
+    height: 80px;
     position: sticky;
     top: 0;
     left: 0;
@@ -50,7 +83,7 @@ header {
 
 .content {
     background-color: lightgray;
-    flex-basis: 100%;
+    flex-basis: calc(100% - 50px);
     height: 90vh;
     overflow-y: scroll;
 }
@@ -58,7 +91,9 @@ header {
 
 /* Footer */
 
-footer {
+.bottom-content {
     background-color: gray;
-    min-height: 100vh;
+    height: 100px;
+    flex-shrink: 0;
+    width: 100%;
 }
