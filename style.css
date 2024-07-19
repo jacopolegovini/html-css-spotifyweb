@@ -76,7 +76,7 @@ h3 {
 }
 
 .bottom-content {
-    background-color: gray;
+    background-color: #282828;
     height: 100px;
     flex-shrink: 0;
     width: 100%;
@@ -203,3 +203,6 @@ h2 + section {
 
 /* Footer */
 
+.bottom-content {
+    justify-content: space-between;
+}
