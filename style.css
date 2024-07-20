@@ -85,7 +85,7 @@ h3 {
     height: 100px;
     flex-shrink: 0;
     width: 100%;
-    gap: 10px;
+    gap: 30px;
 }
 
 
@@ -226,7 +226,7 @@ h2 + section {
 /* Descrition */
 
 .footer-description {
-    gap: 20px;
+    gap: 10px;
     justify-content: space-around;
     align-items: center;
     height: 100%;
@@ -236,7 +236,7 @@ h2 + section {
     flex-basis: 80%;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     height: 100%;
 }
 
@@ -305,4 +305,11 @@ h2 + section {
     position: absolute;
     top: 0px;
     left: 0;
+}
+
+/* Footer */
+/* Secondary control */
+
+.footer-secondary-control {
+    gap: 10px;
 }
