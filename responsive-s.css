@@ -4,7 +4,7 @@
 
     .sidebar {
         flex-basis: 200px;
-        padding: 10px 10px;
+        padding: 10px 12px 5px 12px;
     }
 
     .sidebar-copy {
@@ -40,6 +40,18 @@
         width: 80%;
     }
 
+    /* Sidebar */
+    /* Sidebar playlist */
 
+    .sidebar-playlist {
+        display: block;
+    }
+
+    /* Sidebar */
+    /* Sidebar bottom */
+
+    #sidebar-hr {
+        display: block;
+    }
 
 }

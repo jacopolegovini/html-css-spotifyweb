@@ -108,6 +108,7 @@ h3 {
 
 .sidebar-bottom {
     flex-basis: 10%;
+    height: 100%;
 }
 
 .sidebar-copy {
@@ -121,14 +122,13 @@ h3 {
     overflow-y: auto;
 }
 
-
-
 /* Sidebar */
 /* Sidebar top */
 
 .sidebar-list-flex {
     flex-direction: column;
     gap: 10px;
+    justify-content: space-between;
 }
 
 .sidebar-list-flex img {
@@ -144,7 +144,7 @@ h3 {
 /* Sidebar playlist */
 
 .sidebar-playlist {
-    display: block;
+    display: none;
 }
 
 .sidebar-playlist li {
@@ -164,8 +164,19 @@ h3 {
 
 .sidebar-text-color {
     color: white;
+    font-weight: bold;
 }
 
+/* Sidebar */
+/* Sidebar bottom */
+
+#sidebar-hr {
+    display: none;
+}
+
+.sidebar-hr {
+    border-bottom: 1px solid gray;
+}
 
 /* Header */
 
