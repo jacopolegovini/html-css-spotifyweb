@@ -1,3 +1,45 @@
 @media screen and (min-width: 640px) {
     
+    /* Sidebar */
+
+    .sidebar {
+        flex-basis: 200px;
+        padding: 10px 10px;
+    }
+
+    .sidebar-copy {
+        display: block;
+        flex-grow: 1;
+    }
+
+    .sidebar-list-inside-flex {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sidebar-list-inside-flex * {
+        flex-basis: 20%;
+    }
+
+    /* Sidebar */
+    /* Sidebar top */
+
+    .sidebar-list-flex img {
+        width: 80%;
+        margin: 0;
+    }
+
+    #logo-small {
+        display: none;
+    }
+
+    #logo-standard {
+        display: block;
+        padding: 10px;
+        margin: 0;
+        width: 80%;
+    }
+
+
+
 }
