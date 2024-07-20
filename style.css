@@ -261,6 +261,13 @@ h2 + section {
 }
 
 
+/* Content */
+/* Popular */
+
+    .popular-img {
+        border-radius: 50%;
+    }
+
 /* Footer */
 /* Main */
 

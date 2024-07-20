@@ -1,3 +1,16 @@
 @media screen and (min-width: 768px) {
     
+    /* Content */
+    /* Nav */
+
+    .nav-list-flex li {
+        flex-basis: calc(20% - 40px / 5);
+    }
+
+    /* Content */
+    /* Main content */
+
+    .album {
+        flex-basis: calc(25% - 30px / 4);
+    }
 }
