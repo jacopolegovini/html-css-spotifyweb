@@ -284,6 +284,8 @@ h2 + section {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
 }
 
 .song-lenght {
@@ -291,13 +293,13 @@ h2 + section {
     position: relative;
 }
 
-.song-lenght-line {
+.song-lenght-line, .volume-line {
     height: 4px;
     border-bottom: 4px solid gray;
     border-radius: 10px;
 }
 
-.song-lenght-line-actual {
+.song-lenght-line-actual, .actual-volume-line {
     height: 4px;
     border-bottom: 4px solid white;
     border-radius: 10px;
@@ -312,4 +314,10 @@ h2 + section {
 
 .footer-secondary-control {
     gap: 10px;
+    align-items: center;
+}
+
+.footer-secondary-control div:nth-child(4) {
+    flex-basis: 50%;
+    position: relative;
 }
