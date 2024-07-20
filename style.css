@@ -29,9 +29,8 @@ header + main {
     height: 15%;
 }
 
-nav {
-    
-    height: 100%;
+nav {  
+    padding-top: 20px;
 }
 
 h2 {
@@ -56,17 +55,6 @@ h3 {
     border: 1px dashed red;
 }
 
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-.container-sm {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 8px;
-}
 
 /* Main */
 
@@ -86,6 +74,8 @@ h3 {
     flex-shrink: 0;
     width: 100%;
     gap: 30px;
+    justify-content: space-between;
+    padding: 8px 10px;
 }
 
 
@@ -101,7 +91,7 @@ h3 {
 }
 
 .sidebar-top {
-    height: calc(100vh - 210px);
+    height: calc(100vh - 220px);
     flex-direction: column;
     gap: 30px;
     flex-grow: 0;
@@ -175,6 +165,7 @@ h3 {
     border-bottom: 1px solid gray;
 }
 
+
 /* Header */
 
 header {
@@ -229,10 +220,15 @@ header {
     font-size: 0.7rem;
     flex-basis: calc(25% - 30px / 4);
     text-align: center;
+    padding: 10px 0;
 }
 
 /* Content */
 /* Main content */
+
+.main-content {
+    padding: 20px;
+}
 
 .recent-content, .for-you-content, .popular-content {
     flex-wrap: wrap;
@@ -270,10 +266,6 @@ h2 + section {
 
 /* Footer */
 /* Main */
-
-.bottom-content {
-    justify-content: space-between;
-}
 
 .footer-description , .footer-secondary-control {
     flex-basis: 30%;

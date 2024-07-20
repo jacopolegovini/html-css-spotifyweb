@@ -1,3 +1,31 @@
 @media screen and (min-width: 1024px) {
+    /* Content */
+    /* Nav */
+
+    .top-content nav {
+        width: calc(60vw - 179.19px);
+        margin: 0 auto;
+    }
+
+    .nav-list-flex li {
+        flex-basis: calc(100% / 6 - 50px / 6);
+    }
+
+    /* Content */
+    /* Main content */
+
+    .album {
+        flex-basis: calc(100% / 6 - 50px / 6);
+    }
+
+    /* Footer */
+    /* Descrition */
+
+    .footer-description , .footer-secondary-control {
+        flex-basis: 15%;
+    }
     
+    .footer-main-control {
+        flex-basis: 25%;
+    }
 }

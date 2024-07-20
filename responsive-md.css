@@ -3,6 +3,11 @@
     /* Content */
     /* Nav */
 
+    .top-content nav {
+        width: calc(80vw - 179.19px);
+        margin: 0 auto;
+    }
+
     .nav-list-flex li {
         flex-basis: calc(20% - 40px / 5);
     }
@@ -12,5 +17,16 @@
 
     .album {
         flex-basis: calc(25% - 30px / 4);
+    }
+
+    /* Footer */
+    /* Descrition */
+
+    .footer-description , .footer-secondary-control {
+        flex-basis: 20%;
+    }
+    
+    .footer-main-control {
+        flex-basis: 30%;
     }
 }
