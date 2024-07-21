@@ -108,6 +108,11 @@ h3 {
     color: #A3A3A3;
 }
 
+.sidebar span:hover {
+    color: white;
+}
+
+
 /* Sidebar */
 /* Sidebar top */
 
@@ -147,6 +152,10 @@ h3 {
     padding: 8px;
     margin-right: 5px;
     font-size: 1.2rem;
+}
+
+.sidebar .fa-plus:hover {
+    background-color: white;
 }
 
 .sidebar-text-color {
@@ -221,6 +230,11 @@ header {
     flex-basis: calc(25% - 30px / 4);
     text-align: center;
     padding: 10px 0;
+    font-weight: 600;
+}
+
+.nav-list-flex li:hover {
+    color: white;
 }
 
 /* Content */
