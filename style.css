@@ -34,7 +34,6 @@ nav {
 }
 
 h2 {
-    font-size: 1.2;
     padding: 20px 0 15px 0;
 }
 
@@ -439,7 +438,7 @@ h2 + section {
 /* Main control button */
 
 .main-control-button {
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     font-size: 1.2rem;
     align-items: center;
