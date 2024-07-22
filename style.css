@@ -330,6 +330,25 @@ h2 + section {
     display: block;
 }
 
+.fa-circle-pause {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+    z-index: 1;
+}
+
+.img-album:active .fa-circle-play {
+    display: none;
+}
+
+.img-album:active .fa-circle-pause {
+    display: block;
+}
+
 /* Content */
 /* Popular */
 
@@ -376,9 +395,27 @@ h2 + section {
     font-weight: bolder;
 }
 
+.footer-copy section:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 .description-cta {
     flex-basis: 20%;
     text-align: center;
+}
+
+.description-cta * {
+    color: #7C7C7C;
+}
+
+.description-cta *:hover {
+    color: white;
+}
+
+.description-cta *:active {
+    color: white;
+    background-color: white;
 }
 
 /* Footer */
@@ -397,6 +434,14 @@ h2 + section {
     gap: 10px;
     font-size: 1.2rem;
     align-items: center;
+}
+
+.main-control-button *:hover {
+    scale: 1.1;
+}
+
+.main-control-button *:active {
+    scale: 1;
 }
 
 .fa-circle-play {
@@ -435,6 +480,28 @@ h2 + section {
     left: 0;
 }
 
+.main-control-song-lenght:hover .song-lenght-line-actual, .actual-volume-line:hover {
+    background-color: white;
+    border-bottom: 4px solid lightgreen;
+}
+
+.main-control-song-lenght:hover .song-lenght-line-actual::after, .actual-volume-line:hover::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    left: 95%;
+    z-index: 1;
+}
+
+.main-control-song-lenght:active .song-lenght-line-actual::after, .actual-volume-line:active::after {
+    scale: 1.2;
+}
+
+
 /* Footer */
 /* Secondary control */
 
@@ -447,3 +514,4 @@ h2 + section {
     flex-basis: 50%;
     position: relative;
 }
+
