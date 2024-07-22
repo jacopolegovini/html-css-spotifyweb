@@ -270,13 +270,40 @@ h2 + section {
     padding-bottom: 20px;
 }
 
+/* Content */
+/* Recent */
+
+.img-album {
+    position: relative;
+}
+
+.img-album .fa-circle-play {
+    font-size: 4rem;
+}
+
+.play-icon-album {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img-album:hover img {
+    opacity: 0.3;
+}
+
+.img-album:hover .play-icon-album {
+    display: block;
+}
 
 /* Content */
 /* Popular */
 
-    .popular-img {
-        border-radius: 50%;
-    }
+.popular-img {
+    border-radius: 50%;
+}
 
 /* Footer */
 /* Main */
